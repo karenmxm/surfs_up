@@ -35,12 +35,14 @@ def precipitation():
     precipitation = session.query(Measurement.date, Measurement.prcp).\
         filter(Measurement.date >= prev_year).all()
     precip = {date: prcp for date, prcp in precipitation}
+    session.close()
     return jsonify(precip)
 
 @app.route("/api/v1.0/stations")
 def stations():
     results = session.query(Station.station).all()
     stations = list(np.ravel(results))
+    session.close()
     return jsonify(stations)
 
 @app.route("/api/v1.0/tobs")
@@ -48,6 +50,8 @@ def temp_monthly():
     prev_year = dt.date(2017, 8, 23) - dt.timedelta(days=365)
     results = session.query(Measurement.tobs).\
         filter(Measurement.station == 'USC00519281').filter(Measurement.date >= prev_year).all()
+    
+    session.close()
     temps = list(np.ravel(results))
     return jsonify(temps)
 
@@ -67,3 +71,7 @@ def stats(start=None, end=None):
             filter(Measurement.date <= end).all()
     temps = list(np.ravel(results))
     return jsonify(temps)
+    session.close()
+
+if __name__ == "__main__":
+    app.run(debug=True)
