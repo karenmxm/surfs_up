@@ -32,4 +32,9 @@ Analysis for Surf n' Shake stores in Hawaii.
      <p align="center">
      <img src="https://github.com/karenmxm/surfs_up/blob/master/December.png">
      </p>
+     
+ 2. Recommendations
+    - Include all monthes in Summer because this is vacation season.
+    - More seasional analysis for Spring and Fall for spring break period and long weekend in Fall.
+    - More data on the number of visitors.
 
