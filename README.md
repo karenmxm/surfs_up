@@ -16,20 +16,19 @@ Analysis for Surf n' Shake stores in Hawaii.
        3. 75% quartile in June is smaller than in December, which means there are more larger precipitations in December.
      - Count of precipitation in June is more than December, which means precipitation is more frequent in June than December.
   
-  - Temperature is June and December
-    - Mean temperature in June is higher than in December.
-    - Standard Deviation in June is smaller than in December, which means June temperature varies less.
-    - Min and Max temperature in June are higher than in December.
-    - Medians are close to means in June and December and other quartiles show that temperature distributions are not skewed in June and December
+   - Temperature is June and December
+     - Mean temperature in June is higher than in December.
+     - Standard Deviation in June is smaller than in December, which means June temperature varies less.
+     - Min and Max temperature in June are higher than in December.
+     - Medians are close to means in June and December and other quartiles show that temperature distributions are not skewed in June and December
  
-  - June Weather Statistics
+   - June Weather Statistics
 
      <p align="center">
      <img src="https://github.com/karenmxm/surfs_up/blob/master/June.png">
      </p>
 
-  - December Weather Statistics
-
+    - December Weather Statistics
      <p align="center">
      <img src="https://github.com/karenmxm/surfs_up/blob/master/December.png">
      </p>
