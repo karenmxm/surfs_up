@@ -4,7 +4,7 @@ Analysis for Surf n' Shake stores in Hawaii.
 
 ## Weather in June and December in Hawaii
 
-- Overall, Hawaii in June is drier and hotter than in December. Look for more details in the following data statistics and analysis.
+1. Overall, Hawaii in June is drier and hotter than in December. Look for more details in the following data statistics and analysis.
 
   - Precipitation in June and December in Hawaii
     - Mean precipitation in June is lower than in December. 
